@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JavaScript Lab</title>
+  <script>
+    function PrependCat(catArray,newCat) {
+      return [newCat, ...catArray]
+    }
+    const cats = ["Milo","Otis", "Garfield"]
+    const newCatsArray = PrependCat(cats, "Bob")
+  </script>
 </head>
 <body>
   hello
